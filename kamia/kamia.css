@@ -1,1 +1,77 @@
+body, html{
+  font-family: Optima, sans-serif;
+  height: 100%;
+
+  /* BACKGROUND IMAGE */
+  background-image: url("pic.jpg");
+
+  /* FULL HEIGHT */
+  height: 100%;
+
+  /* CENTER & SCALE IMAGE */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* IMAGE ALIGN*/
+
+/* IMAGE CONTAINERS (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+.padding{
+  padding: 1px;
+}
+
+/*CLEAR FLOATS AFTER IMAGE CONTAINER */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* ICONS CODE*/
+
+* {box-sizing: border-box}
+
+/* CONTAINER 4 OVERLAY */
+.container {
+  position: relative;
+  width: 50%;
+  max-width: 400px;
+}
+
+/* IMAGE RESPONSIVENESS */
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* OVERLAY EFFECT */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: #321D07;
+  font-size: 30px;
+  background-color: #A74B32;
+  padding: 40px;
+  text-align: center;
+}
+
+/* FADE IN OVERLAY */
+.container:hover .overlay {
+  opacity: 1;
+}
 
