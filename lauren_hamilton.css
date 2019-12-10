@@ -15,6 +15,7 @@ p{
 }
 
 h3.b1 {
+  border-radius: 25px;
   margin: 50px;
   border: 1px;
   outline-style: inset;
