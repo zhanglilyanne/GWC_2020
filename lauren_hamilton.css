@@ -1,16 +1,25 @@
 body{
   background-color: cornsilk;
 }
+
 h1{
   color: #4f2300;
 }
+
 h3{
   color: #4f2300;
 }
+
 p{
   color: #4f2300;
 }
-h3.inset {outline-style: inset;}
+
+h3.b1 {
+  border: 1px;
+  outline-style: inset;
+  outline-color: brown;
+}
+
 li{
   color: #4f2300;
 }
