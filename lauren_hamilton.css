@@ -1,7 +1,7 @@
 body{
   outline-style: dotted;
   margin: 30px;
-  border: 15px;
+  outline-radius: 25px;
   background-color: cornsilk;
 }
 
