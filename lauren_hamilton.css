@@ -1,6 +1,7 @@
 body{
   outline-style: dotted;
   margin: 30px;
+  border: 5px;
   background-color: cornsilk;
 }
 
